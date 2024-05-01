@@ -1,0 +1,53 @@
+.formulario-receita {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-nome-receita {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.container-ingrediente {
+  margin-bottom: 10px;
+}
+
+.input-ingrediente {
+  width: calc(100% - 100px); /* Ajuste conforme necessário */
+  padding: 8px;
+}
+
+.botao-remover,
+.botao-editar,
+.botao-salvar,
+.botao-cancelar,
+.botao-adicionar,
+.botao-salvar-receita {
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-remover:hover,
+.botao-editar:hover,
+.botao-salvar:hover,
+.botao-cancelar:hover,
+.botao-adicionar:hover,
+.botao-salvar-receita:hover {
+  background-color: #0056b3;
+}
+
+.botao-salvar,
+.botao-cancelar,
+.botao-salvar-receita {
+  background-color: #28a745;
+}
+
+.botao-salvar:hover,
+.botao-salvar-receita:hover {
+  background-color: #218838;
+}
